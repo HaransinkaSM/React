@@ -1,10 +1,11 @@
 import './App.css';
-import Home from './components/home';
+import Login from './components/log';
 function App() {
   return (
     <div className="App">
-    <Home/>
+      <Login/>
     </div>
   );
 }
+
 export default App;
