@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"> <img src="RAJ KOW.png" alt="logo"></a>
+        </div>
+        <ul class="menu">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Blogs</a></li>
+           <li><a href="#">Resources</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Sign  In</a></li>
+           <li><a href="#">Sign Up</a></li>
+           <li><a href="#"><img src="search.png"></a></li>
+           <li><a href="#"><img src="add-to-basket.png"></a></li>
+        </ul>
+    </nav>
+    <section class="a1">
+        <h1>Discover restaurants and more near you..</h1>
+        <div id="cover">
+            <form method="get" action="">
+              <div class="tb">
+                <div class="td"><input type="text" placeholder="Search" required></div>
+                <div class="td" id="s-cover">
+                  <button type="submit">
+                        <div id="s-circle"></div>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+    </section>
+    <section class="a2">
+        <div class="container reveal">
+            <h2>Choose Your Impetus ??</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <h3>Dasher</h3>
+                    <img src="delivery-bike.png">
+                </div>
+                <div class="text-card">
+                    <h3>Customer</h3>
+                    <img src="delivery.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="a3">
+        <div class="container reveal">
+            <h2>Everything You Crave,delivered.</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <img src="main-cravings-stock-colors-gettyimages-637493080-1502368442.jpeg">
+                </div>
+                <div class="text-card">
+                    <h3>Your favorite local restaurants</h3>
+                    <p>Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot you've been meaning to try.</p>
+                    <button class="a4"><a href="https://www.tripadvisor.in/Restaurants-g297675-Coimbatore_Coimbatore_District_Tamil_Nadu.html" target="_blank">Find Restaurants</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="a5"> 
+        <div class="container reveal">
+            <h2>Customer Reviews</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <img src="man.png">
+                    <p>Hey, ipsum dolor sit am dw Lorem ipsum dolor sit amet.et consectetur adipisicing elit. Corpor wdlmmwl nulla ex beatae nam!</p>
+                </div>
+                <div class="text-card">
+                    <img src="girl.png">
+                    <p>Hello ipsum dolor, sit amet consectetur adipisicing elit. Ipsamque vitae quisquam nemo est    enine epudiandae.</p>
+                </div>
+                <div class="text-card">
+                    <img src="bussiness-man.png">
+                    <p>Hurrah, ipsum detur adipisicing elit. Possimus excepturi commodi veritatis eius architecto deleniti quae ariores dolor nobis quaerat?</p>
+                </div>
+            </div>
+        </div>
+    </section >
+    <section class="a6"> 
+        <div class="container reveal">
+            <h2>Our Online Journals.</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <img src="meat-food-meal-dinner-wallpaper-preview.jpeg">
+                    <h3>Meat</h3>
+                </div>
+                <div class="text-card">
+                    <img src="delicious-pizza-food.jpeg">
+                    <h3>Pizza</h3>
+                </div>
+                <div class="text-card">
+                    <img src="wp3095065.jpeg">
+                    <h3>Burger</h3>
+                </div>
+            </div>
+        </div>
+    </section >
+    <section class="a7">
+        <div class="container reveal">
+            <h2>To Become a Member??</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <h3>To Capture the Premium</h3>
+                    <p>What really matters social capital and civic engagement is not merely nominal membership, but active and involved membership.
+                    </p>
+                    <button class="a9"><a href="https://www.swiggy.com/swiggy-super" target="_blank">Membership</a></button>
+                </div>
+                <div class="text-card">
+                    <img src="invitation.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h3>R&K Restaurants</h3>
+            <p>R&K Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"><img src="facebook.png"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"><img src="instagram.png"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"><img src="whatsapp.png"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i><img src="youtube.png"></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"><img src="linkedin.png"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">R&K Restaurants</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+    
+    </footer>
+ <script type="text/javascript">
+        window.addEventListener('scroll',reveal);
+        function reveal()
+        {
+            var reveals=document.querySelectorAll('.reveal');
+            for(var i=0;i<reveals.length;i++)
+            {
+                var windowheight=window.innerHeight;
+                var revealtop=reveals[i].getBoundingClientRect().top;
+                var revealpoint=150;
+                if(revealtop < windowheight-revealpoint)
+                {
+                    reveals[i].classList.add('active');
+                }
+                else 
+                {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+
+    
+
+</body>
+</html>
