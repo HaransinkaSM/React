@@ -1,0 +1,79 @@
+
+.outbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.blocksurvey.io/templates/association-registration-form.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 55%;
+}
+.bot{
+    height: 80%;
+    width: 55%;
+    background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/train-5036538-4198469.png?f=webp);
+    
+}
+.boxin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+}
+.regest{
+    font-family: sans-serif;
+}
+.but{
+    box-shadow: black 5px 5px 5px;
+    border-radius: 20px;
+    width: 200px;
+    transition: 0.3s ease;
+}
+.but:hover
+{
+    width: 210px;
+    height: 60px;
+
+}
+input{
+    height: 1.4cm;
+    width: 10cm;
+    border-radius: 10ch;
+    box-shadow: black 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.img1{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.img2{
+    width: 43px;
+    height: 43px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
